@@ -336,6 +336,8 @@ nav ul li a {
 .training_ex p {
     font-size: 1rem;
     padding-bottom: 20px;
+    line-height: 1.5em;
+    color: rgba(255, 255, 255, 0.503) ;
 }
 
 
