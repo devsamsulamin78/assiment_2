@@ -62,7 +62,7 @@
 
 
  .banner_content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bolder;
     padding-top: 0;
     font-family: "Inter", sans-serif;
@@ -77,11 +77,19 @@
 }
 
  
+
+
+.banner_img img {
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 100%;
+}
 .box_1 {
     position: relative;
     bottom: 490px;
     left: 220px;
-    background-color: blue;
+    background-color: rgba(80, 80, 80, 0.773);
     padding: 10px;
     width: 6rem;
     height: 3rem;
@@ -102,7 +110,7 @@
     position: relative;
     bottom: 220px;
     left: 30px;
-    background-color: blue;
+    background-color: rgba(80, 80, 80, 0.773);
     padding: 10px;
     width: 6rem;
     height: 3rem;
@@ -119,16 +127,7 @@
 }
 
 
-
-
-.banner_img img {
-    text-align: center;
-    justify-content: center;
-    margin-left: 20px;
-    width: 100%;
-}
-
-
+/* change habit section */
 .change_habits_section {
     margin: 10px 10px;
     padding-top: 10px;
@@ -284,7 +283,6 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
-
     background-color: rgb(46, 43, 43);
 }
 
@@ -293,16 +291,60 @@
     width: 100%;
 } 
 
+
+
+
+#activaty {
+    width: 88%;
+}
+
+
 .bmi_from p {
     padding-bottom: 20px ;
     color: rgba(255, 255, 255, 0.503) ;
 }
 
 
-.bmi_btn {
-    padding: 14px 50px;
+
+
+label, input, select {
+    padding: 15px 10px;
+    width: 38%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
 
+#mele_from {
+    margin-left: 10px;
+    width: 150px;
+}
+
+#mele_from1 {
+    margin-left: 10px; 
+    width: 95%;
+}
+
+
+.bmi_btn {
+    padding: 14px 50px;
+    margin-left: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* our team section */
 .our_team_section {
     margin: 25px 15px;
 }
@@ -338,6 +380,9 @@
 
 
 
+/* footer section */
+/* footer section */
+
 .footer_pera_cotainer {
     display: flex;
     flex-direction: column;
@@ -359,9 +404,6 @@ hr {
     margin: 15px 15px;
   
 }
-
-
-
 
 
 }

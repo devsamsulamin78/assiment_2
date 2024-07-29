@@ -93,53 +93,7 @@ nav ul li a {
 
 
 
-
-
-
-.box_1 {
-    position: relative;
-    bottom: 400px;
-    left: 250px;
-    background-color: rgba(80, 80, 80, 0.773);
-    padding: 10px;
-    width: 8rem;
-    height: 4rem;
-    border-radius: 10px;
-}
-
-.box_1 h1 {
-    font-size: 2.5rem;
-    padding-bottom: 5px;
-}
-
-.box_1 p {
-    font-size: 0.8rem;
-}
-
-
-.box_2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    bottom: 200px;
-    right: 100px;
-    background-color: rgba(80, 80, 80, 0.773);
-    padding: 10px;
-    width: 9rem;
-    height: 4rem;
-    border-radius: 10px;
-}
-
-
-
-.box_2_icon, .fa-circle-play {
-    font-size: 1.8rem;
-    color: red;
-}
-
+/* banner  */
 
  .banner_container {
     display: flex;
@@ -214,9 +168,52 @@ nav ul li a {
     width: 12rem;
     height: auto;
     border-radius: 10px;
-
 }
 
+.box_1 {
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+    background-color: rgba(80, 80, 80, 0.773);
+    padding: 15px;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+.box_1 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+
+.box_1 p {
+    font-size: 0.8rem;
+    
+}
+
+
+.box_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+    background-color: rgba(80, 80, 80, 0.773);
+    padding: 10px;
+    width: 9rem;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+
+
+.box_2_icon, .fa-circle-play {
+    font-size: 1.8rem;
+    color: red;
+}
 
 
 /* change your habit section */
@@ -255,6 +252,7 @@ nav ul li a {
 
 .habit_img img {
     border-radius: 50%;   
+    border: 2px solid gray;
 }
 
 .habits_pera h3 {
@@ -463,30 +461,46 @@ td {
     line-height: 1.5em;
 }
 
+form {
+    display: block;
+    margin-top: 15px;
+}
 
-form input {
-    padding: 14px 20px;
-    gap: 20px;
-    height: 1rem;
-    width: 15rem;
-    font-size: 1rem;
-    margin-bottom: 15px;
-    margin-right: 15px;
+label, input, select {
+    padding: 15px 10px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
     border-radius: 10px;
-    outline: none;
     border: none;
-    background-color: rgba(255, 255, 255, 0.212) ;
-   color: rgba(255, 255, 255, 0.503) ;
+    outline: none;
+    font-size: 15px;
+}
+
+#mele_from {
+    margin-left: 10px;
+    width: 320px;
+}
+
+#mele_from1 {
+    margin-left: 10px; 
+    width: 660px;
 }
 
 
+
+
+
+
+
 .bmi_btn {
-    padding: 14px 30px;
+    padding: 16px 70px;
     background-color: rgb(212, 70, 70);
     border: none;
     outline: none;
     border-radius: 20px;
     color: white;
+    margin-left: 10px;
 }
 
 
