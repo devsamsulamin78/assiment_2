@@ -89,7 +89,7 @@
     position: relative;
     bottom: 490px;
     left: 220px;
-    background-color: rgba(80, 80, 80, 0.773);
+    background-color: blue;
     padding: 10px;
     width: 6rem;
     height: 3rem;
@@ -110,7 +110,7 @@
     position: relative;
     bottom: 220px;
     left: 30px;
-    background-color: rgba(80, 80, 80, 0.773);
+     background-color: rgba(80, 80, 80, 0.773);
     padding: 10px;
     width: 6rem;
     height: 3rem;
