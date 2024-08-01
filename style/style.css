@@ -386,6 +386,52 @@ nav ul li a {
     } 
 
 
+/* Bebifits if One-on-One Sessions */
+/* Bebifits if One-on-One Sessions */
+.benifit_of_on_one_seassions {
+    margin: 50px 60px;
+}
+
+
+.benifit_of_on_one_seassions h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.benifit_of_on_one_seassions p {
+    font-size: 1rem;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    color: rgba(255, 255, 255, 0.503) ;
+    margin-bottom: 20px;
+}
+
+.benefit_img_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.befit_img_box {
+    background-color:  rgba(255, 255, 255, 0.19);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.benifit_content h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.befit_img_box img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
 /* bmi-calculator */
 /* bmi-calculator */
 

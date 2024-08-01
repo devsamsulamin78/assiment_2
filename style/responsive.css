@@ -28,8 +28,6 @@
       display: block;
   }
 
-
-
   nav ul {
     display: none;
     /* align-items: center;
@@ -50,9 +48,7 @@
     display: block;
 }
 
-
-
- .banner_container {
+.banner_container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -62,11 +58,15 @@
 
 
  .banner_content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     padding-top: 0;
     font-family: "Inter", sans-serif;
     color: white;
+}
+.banner_text_style {
+    font-family: "Playwrite IS", cursive;
+    font-size: 3rem;
 }
 
 .btn {
@@ -75,8 +75,6 @@
      margin-top: 10px;
      margin-left: 15px;
 }
-
- 
 
 
 .banner_img img {
@@ -253,6 +251,41 @@
     grid-column: span 2;
 } 
 
+
+
+/* Bebifits if One-on-One Sessions */
+.benifit_of_on_one_seassions {
+    margin: 40px 15px;
+}
+
+
+.benifit_of_on_one_seassions h1 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+
+
+.benefit_img_container {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+.befit_img_box {
+    background-color:  rgba(255, 255, 255, 0.19);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.benifit_content h2 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.befit_img_box img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 
 
